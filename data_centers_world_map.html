@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_087b2396cd637fa3114953dc0fded037 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_087b2396cd637fa3114953dc0fded037" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_087b2396cd637fa3114953dc0fded037 = L.map(
+                "map_087b2396cd637fa3114953dc0fded037",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_04d1c8f25286ebd02a5fab857de63fb2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_04d1c8f25286ebd02a5fab857de63fb2.addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var marker_be93016e1f73eb1af0c837bad07bb19a = L.marker(
+                [37.7749, -122.4194],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_2ba6ba799b9d58825e1f0a28be80c223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be93016e1f73eb1af0c837bad07bb19a.setIcon(icon_2ba6ba799b9d58825e1f0a28be80c223);
+        
+    
+        var popup_2859154ae4016bedd0993ffbfe7e06cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55e541f5c98dbe184eafce36957ce128 = $(`<div id="html_55e541f5c98dbe184eafce36957ce128" style="width: 100.0%; height: 100.0%;">AWS Data Center</div>`)[0];
+                popup_2859154ae4016bedd0993ffbfe7e06cc.setContent(html_55e541f5c98dbe184eafce36957ce128);
+            
+        
+
+        marker_be93016e1f73eb1af0c837bad07bb19a.bindPopup(popup_2859154ae4016bedd0993ffbfe7e06cc)
+        ;
+
+        
+    
+    
+            var marker_8192c654c19656b516d62452c9853a15 = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_5a67dd4b6d26ed463d38d317d42b4334 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8192c654c19656b516d62452c9853a15.setIcon(icon_5a67dd4b6d26ed463d38d317d42b4334);
+        
+    
+        var popup_d3b105aecd14bf923bb86957f7cd399a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af8b1cba3c453b8fc6619dfce6510d48 = $(`<div id="html_af8b1cba3c453b8fc6619dfce6510d48" style="width: 100.0%; height: 100.0%;">AWS Data Center</div>`)[0];
+                popup_d3b105aecd14bf923bb86957f7cd399a.setContent(html_af8b1cba3c453b8fc6619dfce6510d48);
+            
+        
+
+        marker_8192c654c19656b516d62452c9853a15.bindPopup(popup_d3b105aecd14bf923bb86957f7cd399a)
+        ;
+
+        
+    
+    
+            var marker_cc8e13c2135551eb1f58882523ed6054 = L.marker(
+                [35.6895, 139.6917],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_1b7cebe8021fe86292378d66511a1de4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc8e13c2135551eb1f58882523ed6054.setIcon(icon_1b7cebe8021fe86292378d66511a1de4);
+        
+    
+        var popup_5fd0dfe0c28492b18fe2a0abd19548fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a13709ce58cebbe50aa451a05e6e2672 = $(`<div id="html_a13709ce58cebbe50aa451a05e6e2672" style="width: 100.0%; height: 100.0%;">AWS Data Center</div>`)[0];
+                popup_5fd0dfe0c28492b18fe2a0abd19548fc.setContent(html_a13709ce58cebbe50aa451a05e6e2672);
+            
+        
+
+        marker_cc8e13c2135551eb1f58882523ed6054.bindPopup(popup_5fd0dfe0c28492b18fe2a0abd19548fc)
+        ;
+
+        
+    
+    
+            var marker_5ab4350d15f00ca6824d488cf65eedb6 = L.marker(
+                [47.6062, -122.3321],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_d6b61fbda97a6221f79a342ec271e775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ab4350d15f00ca6824d488cf65eedb6.setIcon(icon_d6b61fbda97a6221f79a342ec271e775);
+        
+    
+        var popup_9450197d0663a27b088f9e88a3531efa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3769985f7ebb04c76fe07553b31880a5 = $(`<div id="html_3769985f7ebb04c76fe07553b31880a5" style="width: 100.0%; height: 100.0%;">Microsoft Azure Data Center</div>`)[0];
+                popup_9450197d0663a27b088f9e88a3531efa.setContent(html_3769985f7ebb04c76fe07553b31880a5);
+            
+        
+
+        marker_5ab4350d15f00ca6824d488cf65eedb6.bindPopup(popup_9450197d0663a27b088f9e88a3531efa)
+        ;
+
+        
+    
+    
+            var marker_31f727a8760d85dfdbfe0def2688adff = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_9740926daf441e1a4d3e7cb5e9f1a03e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31f727a8760d85dfdbfe0def2688adff.setIcon(icon_9740926daf441e1a4d3e7cb5e9f1a03e);
+        
+    
+        var popup_932142a26d101a5c6266b6e6822a5e90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_051788384d9a6bb3932ebc7a0d7a9b24 = $(`<div id="html_051788384d9a6bb3932ebc7a0d7a9b24" style="width: 100.0%; height: 100.0%;">Microsoft Azure Data Center</div>`)[0];
+                popup_932142a26d101a5c6266b6e6822a5e90.setContent(html_051788384d9a6bb3932ebc7a0d7a9b24);
+            
+        
+
+        marker_31f727a8760d85dfdbfe0def2688adff.bindPopup(popup_932142a26d101a5c6266b6e6822a5e90)
+        ;
+
+        
+    
+    
+            var marker_4b89c672d13c787e94e5e3ac9b0f5ad3 = L.marker(
+                [22.3193, 114.1694],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_6687b56bb2294b77b6d109e1550129c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b89c672d13c787e94e5e3ac9b0f5ad3.setIcon(icon_6687b56bb2294b77b6d109e1550129c6);
+        
+    
+        var popup_46a09bd15f43e9c5ef2eae14a13db7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c5b39c6bacdf75d9cc698307d71a57f = $(`<div id="html_2c5b39c6bacdf75d9cc698307d71a57f" style="width: 100.0%; height: 100.0%;">Microsoft Azure Data Center</div>`)[0];
+                popup_46a09bd15f43e9c5ef2eae14a13db7f6.setContent(html_2c5b39c6bacdf75d9cc698307d71a57f);
+            
+        
+
+        marker_4b89c672d13c787e94e5e3ac9b0f5ad3.bindPopup(popup_46a09bd15f43e9c5ef2eae14a13db7f6)
+        ;
+
+        
+    
+    
+            var marker_583661eac303834c5abf0bab4f71a45d = L.marker(
+                [37.7749, -122.4194],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_db607f9e27ecea48adca4c77c78bdb32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_583661eac303834c5abf0bab4f71a45d.setIcon(icon_db607f9e27ecea48adca4c77c78bdb32);
+        
+    
+        var popup_033a18e3530b57ab967a20c18a7d3ec1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0107989114362d41da6c447a0b66ce47 = $(`<div id="html_0107989114362d41da6c447a0b66ce47" style="width: 100.0%; height: 100.0%;">Google Cloud Data Center</div>`)[0];
+                popup_033a18e3530b57ab967a20c18a7d3ec1.setContent(html_0107989114362d41da6c447a0b66ce47);
+            
+        
+
+        marker_583661eac303834c5abf0bab4f71a45d.bindPopup(popup_033a18e3530b57ab967a20c18a7d3ec1)
+        ;
+
+        
+    
+    
+            var marker_cccb266f905e1de2e4bdb3b62b75ccf0 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_3fe5d881b87cacd2b2a2cfc2ff31bebb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cccb266f905e1de2e4bdb3b62b75ccf0.setIcon(icon_3fe5d881b87cacd2b2a2cfc2ff31bebb);
+        
+    
+        var popup_fd0c2b22772eae16b7ed001cee9ebcd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd2b0bb4453870c3a00f6878fc6473ca = $(`<div id="html_fd2b0bb4453870c3a00f6878fc6473ca" style="width: 100.0%; height: 100.0%;">Google Cloud Data Center</div>`)[0];
+                popup_fd0c2b22772eae16b7ed001cee9ebcd7.setContent(html_fd2b0bb4453870c3a00f6878fc6473ca);
+            
+        
+
+        marker_cccb266f905e1de2e4bdb3b62b75ccf0.bindPopup(popup_fd0c2b22772eae16b7ed001cee9ebcd7)
+        ;
+
+        
+    
+    
+            var marker_5543b2b5fb94c005380b87892c46f909 = L.marker(
+                [35.6762, 139.6503],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_4fb52d817abb3f962d3695e950ca65dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5543b2b5fb94c005380b87892c46f909.setIcon(icon_4fb52d817abb3f962d3695e950ca65dd);
+        
+    
+        var popup_e9e227bae2346714adc5864c5b62b320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb10baeee76468572e8bead561b4c189 = $(`<div id="html_bb10baeee76468572e8bead561b4c189" style="width: 100.0%; height: 100.0%;">Google Cloud Data Center</div>`)[0];
+                popup_e9e227bae2346714adc5864c5b62b320.setContent(html_bb10baeee76468572e8bead561b4c189);
+            
+        
+
+        marker_5543b2b5fb94c005380b87892c46f909.bindPopup(popup_e9e227bae2346714adc5864c5b62b320)
+        ;
+
+        
+    
+    
+            var marker_c3732aaeaf5b30b4323c8115b85709b2 = L.marker(
+                [45.4215, -75.6972],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_7a15309147f4b7ed8501dbf89aedd015 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3732aaeaf5b30b4323c8115b85709b2.setIcon(icon_7a15309147f4b7ed8501dbf89aedd015);
+        
+    
+        var popup_1c398a0c953c80bb97ac745f815b515b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14e1c72b19a3d0000d830096a8a40944 = $(`<div id="html_14e1c72b19a3d0000d830096a8a40944" style="width: 100.0%; height: 100.0%;">Meta (Facebook) Data Center</div>`)[0];
+                popup_1c398a0c953c80bb97ac745f815b515b.setContent(html_14e1c72b19a3d0000d830096a8a40944);
+            
+        
+
+        marker_c3732aaeaf5b30b4323c8115b85709b2.bindPopup(popup_1c398a0c953c80bb97ac745f815b515b)
+        ;
+
+        
+    
+    
+            var marker_d5f99dfaf020e17635d1c9c8d0034939 = L.marker(
+                [53.3498, -6.2603],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_d89577192670ad4ab5916a1a15b059aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5f99dfaf020e17635d1c9c8d0034939.setIcon(icon_d89577192670ad4ab5916a1a15b059aa);
+        
+    
+        var popup_2b713bcb19569000fbdb788ad89997e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6837b5693beb7f08cf51f9835154442 = $(`<div id="html_b6837b5693beb7f08cf51f9835154442" style="width: 100.0%; height: 100.0%;">Meta (Facebook) Data Center</div>`)[0];
+                popup_2b713bcb19569000fbdb788ad89997e9.setContent(html_b6837b5693beb7f08cf51f9835154442);
+            
+        
+
+        marker_d5f99dfaf020e17635d1c9c8d0034939.bindPopup(popup_2b713bcb19569000fbdb788ad89997e9)
+        ;
+
+        
+    
+    
+            var marker_81bbe7d1d51b7442c984b9b5965f2b83 = L.marker(
+                [1.3521, 103.8198],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_2b09a1758f28b5555a669b339e1f6ada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81bbe7d1d51b7442c984b9b5965f2b83.setIcon(icon_2b09a1758f28b5555a669b339e1f6ada);
+        
+    
+        var popup_fa69f7d245c0065f30e41dda6d17262a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e7094278c91a988169e146f36704be8 = $(`<div id="html_2e7094278c91a988169e146f36704be8" style="width: 100.0%; height: 100.0%;">Meta (Facebook) Data Center</div>`)[0];
+                popup_fa69f7d245c0065f30e41dda6d17262a.setContent(html_2e7094278c91a988169e146f36704be8);
+            
+        
+
+        marker_81bbe7d1d51b7442c984b9b5965f2b83.bindPopup(popup_fa69f7d245c0065f30e41dda6d17262a)
+        ;
+
+        
+    
+    
+            var marker_34868a60f4c794c46a8c1773cbc298f4 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_35336daeda1b5cd549eebc0768a2261e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34868a60f4c794c46a8c1773cbc298f4.setIcon(icon_35336daeda1b5cd549eebc0768a2261e);
+        
+    
+        var popup_5b1c88fe2e66c1cd575b3392de62c490 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8ecae64c7c66ec8000d832b695478c6 = $(`<div id="html_b8ecae64c7c66ec8000d832b695478c6" style="width: 100.0%; height: 100.0%;">IBM Cloud Data Center</div>`)[0];
+                popup_5b1c88fe2e66c1cd575b3392de62c490.setContent(html_b8ecae64c7c66ec8000d832b695478c6);
+            
+        
+
+        marker_34868a60f4c794c46a8c1773cbc298f4.bindPopup(popup_5b1c88fe2e66c1cd575b3392de62c490)
+        ;
+
+        
+    
+    
+            var marker_d1c04d831ab6649b715947d1442c01fa = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_12c6b0c733fd7387133c9b94c9f6fc79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1c04d831ab6649b715947d1442c01fa.setIcon(icon_12c6b0c733fd7387133c9b94c9f6fc79);
+        
+    
+        var popup_ddd9b41f4c195cebaf4df3a99827b2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48a232b2cc71873cc79483ed54b69a27 = $(`<div id="html_48a232b2cc71873cc79483ed54b69a27" style="width: 100.0%; height: 100.0%;">IBM Cloud Data Center</div>`)[0];
+                popup_ddd9b41f4c195cebaf4df3a99827b2d1.setContent(html_48a232b2cc71873cc79483ed54b69a27);
+            
+        
+
+        marker_d1c04d831ab6649b715947d1442c01fa.bindPopup(popup_ddd9b41f4c195cebaf4df3a99827b2d1)
+        ;
+
+        
+    
+    
+            var marker_eed5413e98d33994c22ba3b29d275256 = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_6934788236f94d9d0329d1d90c8b1e1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eed5413e98d33994c22ba3b29d275256.setIcon(icon_6934788236f94d9d0329d1d90c8b1e1d);
+        
+    
+        var popup_66eb46699700eaf3a914357af25055ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9cfda3d197dc6cc0780433c21e0c2d3 = $(`<div id="html_e9cfda3d197dc6cc0780433c21e0c2d3" style="width: 100.0%; height: 100.0%;">IBM Cloud Data Center</div>`)[0];
+                popup_66eb46699700eaf3a914357af25055ba.setContent(html_e9cfda3d197dc6cc0780433c21e0c2d3);
+            
+        
+
+        marker_eed5413e98d33994c22ba3b29d275256.bindPopup(popup_66eb46699700eaf3a914357af25055ba)
+        ;
+
+        
+    
+    
+            var marker_37f6a1a05fc088a9e455488ef469c259 = L.marker(
+                [39.9042, 116.4074],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_c03210d23402b67d0bd050b245fcd111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37f6a1a05fc088a9e455488ef469c259.setIcon(icon_c03210d23402b67d0bd050b245fcd111);
+        
+    
+        var popup_79d57a8f30c4bf04e15c6dac7a131ebc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9341d814ca6c512c17eb658790bb00d = $(`<div id="html_a9341d814ca6c512c17eb658790bb00d" style="width: 100.0%; height: 100.0%;">Alibaba Cloud Data Center</div>`)[0];
+                popup_79d57a8f30c4bf04e15c6dac7a131ebc.setContent(html_a9341d814ca6c512c17eb658790bb00d);
+            
+        
+
+        marker_37f6a1a05fc088a9e455488ef469c259.bindPopup(popup_79d57a8f30c4bf04e15c6dac7a131ebc)
+        ;
+
+        
+    
+    
+            var marker_4f453ac0f28817dee418da333e03b63d = L.marker(
+                [22.3964, 114.1095],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_2e3730e77806d9f2d714b3f09654d4eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f453ac0f28817dee418da333e03b63d.setIcon(icon_2e3730e77806d9f2d714b3f09654d4eb);
+        
+    
+        var popup_2ab46938563e9ccbff469e39108f7e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d63877b209c8811f1928ca607808a163 = $(`<div id="html_d63877b209c8811f1928ca607808a163" style="width: 100.0%; height: 100.0%;">Alibaba Cloud Data Center</div>`)[0];
+                popup_2ab46938563e9ccbff469e39108f7e0b.setContent(html_d63877b209c8811f1928ca607808a163);
+            
+        
+
+        marker_4f453ac0f28817dee418da333e03b63d.bindPopup(popup_2ab46938563e9ccbff469e39108f7e0b)
+        ;
+
+        
+    
+    
+            var marker_953fc6ef6ff27f6742774bd307842ff0 = L.marker(
+                [1.3521, 103.8198],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_5393f9e2f20e4b648801c5c4f590937b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_953fc6ef6ff27f6742774bd307842ff0.setIcon(icon_5393f9e2f20e4b648801c5c4f590937b);
+        
+    
+        var popup_3e6e355a63c0d04406d1e27fce069c06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b16cc3936ca46a41fde369cb1f275d7a = $(`<div id="html_b16cc3936ca46a41fde369cb1f275d7a" style="width: 100.0%; height: 100.0%;">Alibaba Cloud Data Center</div>`)[0];
+                popup_3e6e355a63c0d04406d1e27fce069c06.setContent(html_b16cc3936ca46a41fde369cb1f275d7a);
+            
+        
+
+        marker_953fc6ef6ff27f6742774bd307842ff0.bindPopup(popup_3e6e355a63c0d04406d1e27fce069c06)
+        ;
+
+        
+    
+    
+            var marker_e848209c0737ceacff0b27e2d0734515 = L.marker(
+                [37.7749, -122.4194],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_029c34093ca76f6567678bfa755630f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e848209c0737ceacff0b27e2d0734515.setIcon(icon_029c34093ca76f6567678bfa755630f6);
+        
+    
+        var popup_41d1cf0b543431ece787aa42d2546390 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e3b106fc337bd4a06ffa5cdc9b109a5 = $(`<div id="html_6e3b106fc337bd4a06ffa5cdc9b109a5" style="width: 100.0%; height: 100.0%;">Oracle Cloud Data Center</div>`)[0];
+                popup_41d1cf0b543431ece787aa42d2546390.setContent(html_6e3b106fc337bd4a06ffa5cdc9b109a5);
+            
+        
+
+        marker_e848209c0737ceacff0b27e2d0734515.bindPopup(popup_41d1cf0b543431ece787aa42d2546390)
+        ;
+
+        
+    
+    
+            var marker_0e04b18361ec13dc4250a31429327a33 = L.marker(
+                [55.7558, 37.6176],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_6c6b51ff0cb5b05c5814abc2c13a1b07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e04b18361ec13dc4250a31429327a33.setIcon(icon_6c6b51ff0cb5b05c5814abc2c13a1b07);
+        
+    
+        var popup_1ad5cf44b842dac98d13be4646b681dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed880d00b0e814b31e7a3f040e9bf498 = $(`<div id="html_ed880d00b0e814b31e7a3f040e9bf498" style="width: 100.0%; height: 100.0%;">Oracle Cloud Data Center</div>`)[0];
+                popup_1ad5cf44b842dac98d13be4646b681dd.setContent(html_ed880d00b0e814b31e7a3f040e9bf498);
+            
+        
+
+        marker_0e04b18361ec13dc4250a31429327a33.bindPopup(popup_1ad5cf44b842dac98d13be4646b681dd)
+        ;
+
+        
+    
+    
+            var marker_95b491094ccbc6584af3afed3d6dc5d2 = L.marker(
+                [33.8688, 151.2093],
+                {}
+            ).addTo(map_087b2396cd637fa3114953dc0fded037);
+        
+    
+            var icon_9a9bc8b5c395b75e9dbfd54d002d6cd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95b491094ccbc6584af3afed3d6dc5d2.setIcon(icon_9a9bc8b5c395b75e9dbfd54d002d6cd9);
+        
+    
+        var popup_5f7c788f606294ca0ff9492183930594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e15a1a20a87f489cca33f2ad3baf66 = $(`<div id="html_08e15a1a20a87f489cca33f2ad3baf66" style="width: 100.0%; height: 100.0%;">Oracle Cloud Data Center</div>`)[0];
+                popup_5f7c788f606294ca0ff9492183930594.setContent(html_08e15a1a20a87f489cca33f2ad3baf66);
+            
+        
+
+        marker_95b491094ccbc6584af3afed3d6dc5d2.bindPopup(popup_5f7c788f606294ca0ff9492183930594)
+        ;
+
+        
+    
+</script>
+</html>
